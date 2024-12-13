@@ -9,6 +9,7 @@ A Rust command-line tool that fetches and displays a user's merged GitHub pull r
 - 🔍 Shows repository name, PR link, and merge date
 - 🎨 Uses colored output for better readability
 - ⚡ Asynchronous request handling for better performance
+- 📂 Supports filtering by repositories listed in a `repos.txt` file
 
 ## Prerequisites
 
@@ -28,13 +29,19 @@ cd github-contribution-fetcher
 Run the program with a GitHub username:
 
 ```bash
-cargo run <github-username>
+cargo run <github-username> [repos.txt]
 ```
 
 ### Example:
 
 ```bash
 cargo run octocat
+```
+
+With a `repos.txt` file:
+
+```bash
+cargo run octocat repos.txt
 ```
 
 ## Output Format
