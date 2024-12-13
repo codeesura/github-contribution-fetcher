@@ -65,4 +65,4 @@ Contributions are welcome! Please feel free to submit pull requests.
 
 ## License
 
-This project is available under the MIT license.
+This project is available under the [MIT license](LICENSE).
